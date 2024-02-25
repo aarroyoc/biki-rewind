@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "biki-rewind"
+version = "0.1.0"
+description = ""
+authors = ["Adrián Arroyo Calle <adrian.arroyocalle@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+pandas = "^2.2.1"
+geopandas = "^0.14.3"
+seaborn = "^0.13.2"
+jupyter = "^1.0.0"
+contextily = "^1.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
